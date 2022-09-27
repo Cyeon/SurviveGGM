@@ -1,0 +1,93 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EventManager : MonoBehaviour
+{
+    //리스트는 용량은 작은데 좀 느려 
+    private Dictionary<string, Action<Dictionary<string, object>>> eventDictionary;//Dictionary는 해시로 되어있는데 걔가 젤 빠름! 근데 ㅇ이거 딕셔너리는 용량 짱마니 먹어 
+    private static EventManager eventManager;
+    public static EventManager instance
+    {
+        get 
+        {
+            if (!eventManager)
+            {
+                eventManager = FindObjectOfType(typeof(EventManager)) as EventManager;
+                if (!eventManager)
+                {
+                    Debug.LogError("There needs to be one active EventManager script on a GameObject in your scene.");
+                }
+                else
+                {
+                    eventManager.Init();
+
+                    DontDestroyOnLoad(eventManager);
+                }
+            }
+            return eventManager;
+        }
+
+    }
+
+    private void Init()
+    {
+        if (eventDictionary == null)
+        {
+            eventDictionary = new Dictionary<string, Action<Dictionary<string, object>>>();
+        }
+    }
+
+    /*
+
+      public static void StartListening(string eventName, Action<Dictionary<string, object>> listener) {
+        Action<Dictionary<string, object>> thisEvent;
+
+        if (instance.eventDictionary.TryGetValue(eventName, out thisEvent)) {
+          thisEvent += listener;
+          instance.eventDictionary[eventName] = thisEvent;
+        } else {
+          thisEvent += listener;
+          instance.eventDictionary.Add(eventName, thisEvent);
+        }
+      }
+
+     */
+
+    public static void StartListening(string eventName,Action<Dictionary<string,object>> listener)
+    {
+        Action<Dictionary<string, object>> thisEvent;
+        if(instance.eventDictionary.TryGetValue(eventName,out thisEvent))
+        {
+            thisEvent += listener;
+            instance.eventDictionary[eventName] = thisEvent;
+        }
+        else
+        {
+            thisEvent += listener;
+            instance.eventDictionary.Add(eventName, thisEvent);
+        }
+
+    }
+
+    public static void StopListening(string eventName, Action<Dictionary<string, object>> listener)
+    {
+        if (eventManager == null) return;
+        Action<Dictionary<string, object>> thisEvent;
+        if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
+        {
+            thisEvent -= listener;
+            instance.eventDictionary[eventName] = thisEvent;
+        }
+    }
+
+    public static void TriggerEvent(string eventName, Dictionary<string, object> message)
+    {
+        Action<Dictionary<string, object>> thisEvent = null;
+        if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
+        {
+            thisEvent.Invoke(message);
+        }
+    }
+
+}
