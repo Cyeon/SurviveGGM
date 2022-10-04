@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    //리스트는 용량은 작은데 좀 느려 
-    private Dictionary<string, Action<Dictionary<string, object>>> eventDictionary;//Dictionary는 해시로 되어있는데 걔가 젤 빠름! 근데 ㅇ이거 딕셔너리는 용량 짱마니 먹어 
+    private Dictionary<string, Action<Dictionary<string, object>>> eventDictionary;
     private static EventManager eventManager;
     public static EventManager instance
     {
@@ -37,23 +36,6 @@ public class EventManager : MonoBehaviour
             eventDictionary = new Dictionary<string, Action<Dictionary<string, object>>>();
         }
     }
-
-    /*
-
-      public static void StartListening(string eventName, Action<Dictionary<string, object>> listener) {
-        Action<Dictionary<string, object>> thisEvent;
-
-        if (instance.eventDictionary.TryGetValue(eventName, out thisEvent)) {
-          thisEvent += listener;
-          instance.eventDictionary[eventName] = thisEvent;
-        } else {
-          thisEvent += listener;
-          instance.eventDictionary.Add(eventName, thisEvent);
-        }
-      }
-
-     */
-
     public static void StartListening(string eventName,Action<Dictionary<string,object>> listener)
     {
         Action<Dictionary<string, object>> thisEvent;
