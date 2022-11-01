@@ -6,15 +6,18 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Character
 {
-    private string name = "";
-    private int id = -1;
-    private string information = "";
+    [SerializeField] private string name = "";
+    [SerializeField] private int id = -1;
+    [SerializeField] private string information = "";
+    [SerializeField] private bool IsInfection = false;
 
     [SerializeField]
     private Stat status;
 
     private int curHealth = 0;
     private int curMental = 0;
+
+    
 
     #region Property
     public string CharacterName => name;

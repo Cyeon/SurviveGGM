@@ -1,0 +1,172 @@
+{
+    "FirstaidAmount": 0,
+    "MentalcareAmount": 0,
+    "MineralwaterAmount": 0,
+    "characterDatas": [
+        {
+            "name": "오예은",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "김채연",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "곽민규",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "손성빈",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "김세현",
+            "id": 0,
+            "information": "ㅄ임",
+            "IsInfection": true,
+            "status": {
+                "health": -10,
+                "mental": -10,
+                "power": -10,
+                "luck": -10,
+                "intelligence": -10,
+                "charisma": -10,
+                "speed": -10.0
+            }
+        },
+        {
+            "name": "신기현",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "신예린",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "우수안",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "조건희",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "최원빈",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        },
+        {
+            "name": "박소형",
+            "id": 0,
+            "information": "",
+            "IsInfection": false,
+            "status": {
+                "health": 0,
+                "mental": 0,
+                "power": 0,
+                "luck": 0,
+                "intelligence": 0,
+                "charisma": 0,
+                "speed": 0.0
+            }
+        }
+    ]
+}
