@@ -12,7 +12,8 @@ public class Character
     private int id = -1;
     [SerializeField]
     private string information = "";
-
+    [SerializeField] 
+    private bool IsInfection = false;
     [SerializeField]
     private Stat status;
 
@@ -20,7 +21,6 @@ public class Character
     private int curHealth = 0;
     [SerializeField]
     private int curMental = 0;
-
 
     #region Property
     public int CurHealth { get => curHealth; set { curHealth = value; } }
