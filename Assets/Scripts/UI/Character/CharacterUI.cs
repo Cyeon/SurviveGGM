@@ -8,6 +8,7 @@ using System;
 public class CharacterUI : MonoBehaviour
 {
     public Dictionary<string, Character> characterDictionary = new Dictionary<string, Character>();
+    public List<CharacterSO> characterSO;
 
     [SerializeField]
     private GameObject characterPanel = null;
@@ -32,6 +33,10 @@ public class CharacterUI : MonoBehaviour
 
         statSliders = characterPanel.GetComponentsInChildren<Slider>();
         TMP_Text[] characterTexts = characterPanel.GetComponentsInChildren<TMP_Text>();
+        foreach(CharacterSO character in characterSO)
+        {
+            characterDictionary.Add(character.character.CharacterName, character.character);
+        }
 
         characterNameText = characterTexts[0];
         characterInfoText = characterTexts[1];
@@ -65,6 +70,6 @@ public class CharacterUI : MonoBehaviour
         descriptionText.text = "";
         descriptionText.text += characterDescription.Descriptions[0].descriptionList[character.PainScale] + Environment.NewLine;
         descriptionText.text += characterDescription.Descriptions[1].descriptionList[character.InsaneScale] + Environment.NewLine;
-        descriptionText.text.Replace("#", character.CharacterName);
+        descriptionText.text = descriptionText.text.Replace("#", character.CharacterName);
     }
 }
