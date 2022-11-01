@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+[System.Serializable]
 public class Character
 {
     private string name = "";
     private int id = -1;
-    private string in4mation = "";
+    private string information = "";
 
     [SerializeField]
     private Stat status;
@@ -19,7 +19,7 @@ public class Character
     #region Property
     public string CharacterName => name;
     public int CharacterID => id;
-    public string CharacterInfo => in4mation;
+    public string CharacterInfo => information;
     public Stat CharacterStatus => status;
     /// <summary>
     /// 부상의 심각도 
