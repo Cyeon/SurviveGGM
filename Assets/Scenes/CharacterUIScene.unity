@@ -2247,7 +2247,7 @@ MonoBehaviour:
         m_MethodName: PopupCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: 7286943bc5ca5934a87f1b44ccf77af6, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2515,7 +2515,7 @@ MonoBehaviour:
         m_MethodName: PopupCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: 93469e83951ddac49bc939a887b1cea6, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3130,7 +3130,7 @@ MonoBehaviour:
         m_MethodName: PopupCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: 591826551920ca249b19da421ff80db7, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3540,7 +3540,7 @@ MonoBehaviour:
         m_MethodName: PopupCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: 3b361682ed8946a4b839cbca0aa3dabe, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4444,7 +4444,7 @@ MonoBehaviour:
         m_MethodName: PopupCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: a1dcdf94712372a44b3b8d38d08a2f17, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4900,7 +4900,7 @@ MonoBehaviour:
         m_MethodName: PopupCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: 7cf2524d6c9e39a4daab24c77b4ae4c9, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -6498,7 +6498,7 @@ MonoBehaviour:
         m_MethodName: PopupCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: b89ef6b8e7f9f6448a44d95a2867516e, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -7008,7 +7008,7 @@ MonoBehaviour:
         m_MethodName: PopupCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 11400000, guid: 24d7c457da229d14f84f729ff9e0cd72, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
