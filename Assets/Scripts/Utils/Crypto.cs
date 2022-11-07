@@ -32,7 +32,7 @@ public class Crypto
         rijndael.KeySize = 128;
 
         MemoryStream memoryStream = new MemoryStream();
-
+            
         ICryptoTransform encryptor = rijndael.CreateEncryptor(Encoding.UTF8.GetBytes(KEY), Encoding.UTF8.GetBytes(KEY));
 
         CryptoStream cryptoStream = new CryptoStream(memoryStream, encryptor, CryptoStreamMode.Write);

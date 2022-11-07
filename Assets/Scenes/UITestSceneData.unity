@@ -9458,6 +9458,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uAE40\uCC44\uC5F0"
       id: 0
       information: 
@@ -9470,6 +9472,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uACFD\uBBFC\uADDC"
       id: 0
       information: 
@@ -9482,6 +9486,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uC190\uC131\uBE48"
       id: 0
       information: 
@@ -9494,6 +9500,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uAE40\uC138\uD604"
       id: 0
       information: "\u3144\uC784"
@@ -9506,6 +9514,8 @@ MonoBehaviour:
         intelligence: -10
         charisma: -10
         speed: -10
+      curHealth: 0
+      curMental: 0
     - name: "\uC2E0\uAE30\uD604"
       id: 0
       information: 
@@ -9518,6 +9528,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uC2E0\uC608\uB9B0"
       id: 0
       information: 
@@ -9530,6 +9542,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uC6B0\uC218\uC548"
       id: 0
       information: 
@@ -9542,6 +9556,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uC870\uAC74\uD76C"
       id: 0
       information: 
@@ -9554,6 +9570,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uCD5C\uC6D0\uBE48"
       id: 0
       information: 
@@ -9566,6 +9584,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
     - name: "\uBC15\uC18C\uD615"
       id: 0
       information: 
@@ -9578,6 +9598,8 @@ MonoBehaviour:
         intelligence: 0
         charisma: 0
         speed: 0
+      curHealth: 0
+      curMental: 0
 --- !u!1 &2055561801
 GameObject:
   m_ObjectHideFlags: 0
