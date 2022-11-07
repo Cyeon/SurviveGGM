@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class CharacterUI : MonoBehaviour
 {
     public Dictionary<string, Character> characterDictionary = new Dictionary<string, Character>();
+    public List<CharacterSO> characterSO;
 
     [SerializeField]
     private GameObject characterPanel = null;
+    [SerializeField]
+    private CharacterDescriptionSO characterDescription = null;
 
     private TMP_Text characterNameText = null;
     private TMP_Text characterInfoText = null;
@@ -20,14 +24,19 @@ public class CharacterUI : MonoBehaviour
     private void Start()
     {
         Init();
-
     }
 
     private void Init()
     {
         // 미리 데이터가 들어간 그게 있겟죠? 그걸 characterDictionary에 넣어줍시다 
+
+
         statSliders = characterPanel.GetComponentsInChildren<Slider>();
         TMP_Text[] characterTexts = characterPanel.GetComponentsInChildren<TMP_Text>();
+        foreach(CharacterSO character in characterSO)
+        {
+            characterDictionary.Add(character.character.CharacterName, character.character);
+        }
 
         characterNameText = characterTexts[0];
         characterInfoText = characterTexts[1];
@@ -46,10 +55,7 @@ public class CharacterUI : MonoBehaviour
     {
         characterNameText.text = character.CharacterName;
         characterInfoText.text = character.CharacterInfo;
-        //descriptionText.text 
-        //얘는 따로 처리해야 함
         SetDescriptionOfCharacter(character);
-
     }
     private void SetCharacterSlider(Character character)
     {
@@ -61,6 +67,9 @@ public class CharacterUI : MonoBehaviour
     }
     private void SetDescriptionOfCharacter(Character character)
     {
-
+        descriptionText.text = "";
+        descriptionText.text += characterDescription.Descriptions[0].descriptionList[character.PainScale] + Environment.NewLine;
+        descriptionText.text += characterDescription.Descriptions[1].descriptionList[character.InsaneScale] + Environment.NewLine;
+        descriptionText.text = descriptionText.text.Replace("#", character.CharacterName);
     }
 }
