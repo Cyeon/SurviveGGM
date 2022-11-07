@@ -8,12 +8,17 @@ using System;
 public class CharacterUI : MonoBehaviour
 {
     public Dictionary<string, Character> characterDictionary = new Dictionary<string, Character>();
+    public Dictionary<string, Image> characterImageDictionary = new Dictionary<string, Image>();
     public List<CharacterSO> characterSO;
 
     [SerializeField]
     private GameObject characterPanel = null;
     [SerializeField]
     private CharacterDescriptionSO characterDescription = null;
+    [SerializeField]
+    private Image[] characterImages =null;
+    [SerializeField]
+    private Image characterImage = null;
 
     private TMP_Text characterNameText = null;
     private TMP_Text characterInfoText = null;
@@ -29,13 +34,12 @@ public class CharacterUI : MonoBehaviour
     private void Init()
     {
         // 미리 데이터가 들어간 그게 있겟죠? 그걸 characterDictionary에 넣어줍시다 
-
-
         statSliders = characterPanel.GetComponentsInChildren<Slider>();
         TMP_Text[] characterTexts = characterPanel.GetComponentsInChildren<TMP_Text>();
         foreach(CharacterSO character in characterSO)
         {
             characterDictionary.Add(character.character.CharacterName, character.character);
+            characterImageDictionary.Add(character.character.CharacterName, characterImages[character.character.CharacterID]);
         }
 
         characterNameText = characterTexts[0];
@@ -46,6 +50,9 @@ public class CharacterUI : MonoBehaviour
     public void SetCharacterUI(string idx)
     {
         //characterDictionary[idx].CharacterStatus
+        characterImage.sprite = characterImageDictionary[idx].sprite;
+        characterImage.SetNativeSize();
+        characterImage.rectTransform.sizeDelta *=1.5f;
         Character character = characterDictionary[idx];
         SetCharacterText(character);
         SetCharacterSlider(character);

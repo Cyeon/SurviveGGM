@@ -9,7 +9,6 @@ public class PopupUI : MonoBehaviour
     private GameObject uiCanvas = null;
     [SerializeField]
     private GameObject characterPanel = null;
-
     public void PopupCharacter(CharacterSO character)
     {
         characterPanel.SetActive(true);
