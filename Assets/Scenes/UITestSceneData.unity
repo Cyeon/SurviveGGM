@@ -9397,6 +9397,187 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949544898}
   m_CullTransparentMesh: 1
+--- !u!1 &1972085438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972085439}
+  - component: {fileID: 1972085440}
+  m_Layer: 0
+  m_Name: ItemJson
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972085439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972085438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1972085440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972085438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae31811d7a847a9408633fb57aff81de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamedata:
+    FirstaidAmount: 0
+    MentalcareAmount: 0
+    MineralwaterAmount: 0
+    characterDatas:
+    - name: "\uC624\uC608\uC740"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uAE40\uCC44\uC5F0"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uACFD\uBBFC\uADDC"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uC190\uC131\uBE48"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uAE40\uC138\uD604"
+      id: 0
+      information: "\u3144\uC784"
+      IsInfection: 1
+      status:
+        health: -10
+        mental: -10
+        power: -10
+        luck: -10
+        intelligence: -10
+        charisma: -10
+        speed: -10
+    - name: "\uC2E0\uAE30\uD604"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uC2E0\uC608\uB9B0"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uC6B0\uC218\uC548"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uC870\uAC74\uD76C"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uCD5C\uC6D0\uBE48"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+    - name: "\uBC15\uC18C\uD615"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
 --- !u!1 &2055561801
 GameObject:
   m_ObjectHideFlags: 0

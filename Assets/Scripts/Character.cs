@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+[System.Serializable]
 public class Character
 {
-    private string name = "";
-    private int id = -1;
-    private string in4mation = "";
+    [SerializeField] private string name = "";
+    [SerializeField] private int id = -1;
+    [SerializeField] private string information = "";
+    [SerializeField] private bool IsInfection = false;
 
     [SerializeField]
     private Stat status;
@@ -16,10 +17,12 @@ public class Character
     private int curHealth = 0;
     private int curMental = 0;
 
+    
+
     #region Property
     public string CharacterName => name;
     public int CharacterID => id;
-    public string CharacterInfo => in4mation;
+    public string CharacterInfo => information;
     public Stat CharacterStatus => status;
     /// <summary>
     /// 부상의 심각도 

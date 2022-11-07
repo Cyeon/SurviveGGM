@@ -1,78 +1,55 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System.IO;
 
-public enum ItemType
+public class Item : MonoBehaviour
 {
-    Food,
-    Water,
-    Weapon,
-    Common,
-    FirstAid,
-    MentalCare
+    public GameData gamedata;
+
+    [ContextMenu("To Json Data")]
+    void SaveGameDataToJson()
+    {
+        string jsonData = JsonUtility.ToJson(gamedata,true);
+        string path = Path.Combine(Application.dataPath, "GameData.json");
+        File.WriteAllText(path, jsonData);
+    }
+
+    [ContextMenu("From Json Data")]
+    void LoadGameDataFromJson()
+    {
+        string path = Path.Combine(Application.dataPath, "GameData.json");
+        string jsonData =  File.ReadAllText(path);
+        gamedata = JsonUtility.FromJson<GameData>(jsonData);
+
+    }
 }
 
-public class Item
+[System.Serializable]
+public class GameData
 {
-    [SerializeField]
-    private int id = -1;
-    [SerializeField]
-    private string name = "";
-    [SerializeField]
-    private int weight = 0;
-    [SerializeField]
-    private Image iconImage = null;
-    [SerializeField]
-    private string description = "";
-    [SerializeField]
-    private float lootPercent = 10f;
 
-    #region Property
-    public int ID
-    {
-        get
-        {
-            return id;
-        }
-    }
-
-    public string Name
-    {
-        get
-        {
-            return name;
-        }
-    }
-    public int Weight
-    {
-        get
-        {
-            return weight;
-        }
-    }
-    public Image IconImage
-    {
-        get
-        {
-            return iconImage;
-        }
-    }
-    public string Description
-    {
-        get
-        {
-            return description;
-        }
-    }
-    public float LootPercent
-    {
-        get
-        {
-            return lootPercent;
-        }
-    }
-    #endregion
+public int FirstaidAmount = 0;
+public int MentalcareAmount = 0;
+public int MineralwaterAmount = 0;
 
 
-
-
+    public List<WeaponData> weaponDatas = new List<WeaponData>();
+    public List<FoodData> foodDatas = new List<FoodData>();
+    public List<Character> characterDatas = new List<Character>();
 }
+
+public class FoodData
+{
+    public string FoodName;
+    public int Foodamount;
+}
+
+public class WeaponData
+{
+    public string WeaponName;
+    public int WeaponAmount;
+}
+
+
+
