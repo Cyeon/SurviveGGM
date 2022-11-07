@@ -14,4 +14,9 @@ public class PopupUI : MonoBehaviour
         characterPanel.SetActive(true);
         uiCanvas.GetComponent<CharacterUI>().SetCharacterUI(character.character.CharacterName);
     }
+
+    public void PopDownCharacter()
+    {
+        characterPanel.SetActive(false);
+    }
 }

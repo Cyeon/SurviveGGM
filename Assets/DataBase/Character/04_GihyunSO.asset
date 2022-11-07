@@ -15,14 +15,15 @@ MonoBehaviour:
   character:
     name: "\uC2E0\uAE30\uD604"
     id: 4
-    information: 
+    information: "\uC218\uC0C1\uD558\uB2E4."
+    IsInfection: 0
     status:
-      health: 0
-      mental: 0
-      power: 0
-      luck: 0
-      intelligence: 0
+      health: 5
+      mental: 5
+      power: 4
+      luck: 5
+      intelligence: 4
       charisma: 0
-      speed: 0
-    curHealth: 0
-    curMental: 0
+      speed: 5
+    curHealth: 5
+    curMental: 5

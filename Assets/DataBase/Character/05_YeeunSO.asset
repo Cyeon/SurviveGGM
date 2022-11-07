@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ed5a9b788030804db1bf66ee87140ad, type: 3}
-  m_Name: 10_YelinSO
+  m_Name: 05_YeeunSO
   m_EditorClassIdentifier: 
   character:
-    name: "\uC2E0\uC608\uB9B0"
-    id: 10
-    information: 
+    name: "\uC624\uC608\uC740"
+    id: 5
+    information: "\uB300\uAC00\uB9AC\uB97C \uAE6C\uB2E4."
+    IsInfection: 0
     status:
-      health: 0
-      mental: 0
-      power: 0
-      luck: 0
-      intelligence: 0
-      charisma: 0
-      speed: 0
+      health: 5
+      mental: 5
+      power: 5
+      luck: 3
+      intelligence: 3
+      charisma: 4
+      speed: 2
+    curHealth: 5
+    curMental: 5
