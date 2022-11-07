@@ -28,23 +28,23 @@ public class Item : MonoBehaviour
 [System.Serializable]
 public class GameData
 {
-
-public int FirstaidAmount = 0;
-public int MentalcareAmount = 0;
-public int MineralwaterAmount = 0;
-
+    public int FirstaidAmount = 0;
+    public int MentalcareAmount = 0;
+    public int MineralwaterAmount = 0;
 
     public List<WeaponData> weaponDatas = new List<WeaponData>();
     public List<FoodData> foodDatas = new List<FoodData>();
     public List<Character> characterDatas = new List<Character>();
 }
 
+[System.Serializable]
 public class FoodData
 {
     public string FoodName;
     public int Foodamount;
 }
 
+[System.Serializable]
 public class WeaponData
 {
     public string WeaponName;
