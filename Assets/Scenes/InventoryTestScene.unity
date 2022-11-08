@@ -2049,6 +2049,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 381140659}
+  - {fileID: 1687707662}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3672,6 +3673,221 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793115768}
   m_CullTransparentMesh: 1
+--- !u!1 &794861009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794861011}
+  - component: {fileID: 794861010}
+  m_Layer: 0
+  m_Name: ItemDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &794861010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794861009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae31811d7a847a9408633fb57aff81de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamedata:
+    FirstaidAmount: 0
+    MentalcareAmount: 0
+    MineralwaterAmount: 0
+    weaponDatas:
+    - WeaponName: "\uC758\uC790"
+      WeaponAmount: 1
+    - WeaponName: GROZA
+      WeaponAmount: 13
+    - WeaponName: AWM
+      WeaponAmount: 6
+    foodDatas:
+    - FoodName: "\uCD08\uCF5C\uB9BF \uBC14"
+      Foodamount: 62
+    - FoodName: "60\uACC4\uCE58\uD0A8"
+      Foodamount: 54
+    characterDatas:
+    - name: "\uC624\uC608\uC740"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uAE40\uCC44\uC5F0"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uACFD\uBBFC\uADDC"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uC190\uC131\uBE48"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uAE40\uC138\uD604"
+      id: 0
+      information: "\u3144\uC784"
+      IsInfection: 1
+      status:
+        health: -10
+        mental: -10
+        power: -10
+        luck: -10
+        intelligence: -10
+        charisma: -10
+        speed: -10
+      curHealth: 0
+      curMental: 0
+    - name: "\uC2E0\uAE30\uD604"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uC2E0\uC608\uB9B0"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uC6B0\uC218\uC548"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uC870\uAC74\uD76C"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uCD5C\uC6D0\uBE48"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+    - name: "\uBC15\uC18C\uD615"
+      id: 0
+      information: 
+      IsInfection: 0
+      status:
+        health: 0
+        mental: 0
+        power: 0
+        luck: 0
+        intelligence: 0
+        charisma: 0
+        speed: 0
+      curHealth: 0
+      curMental: 0
+--- !u!4 &794861011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794861009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &801756174
 GameObject:
   m_ObjectHideFlags: 0
@@ -9298,6 +9514,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1687707662 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+  m_PrefabInstance: {fileID: 1025725956517654288}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1711556862
 GameObject:
   m_ObjectHideFlags: 0
@@ -11065,3 +11286,104 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075356748}
   m_CullTransparentMesh: 1
+--- !u!1001 &1025725956517654288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 515350111}
+    m_Modifications:
+    - target: {fileID: 1025725957131570973, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_Name
+      value: ItemPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570973, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025725957131570974, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1a47e8f26fb39674597f71d831602ba3, type: 3}
