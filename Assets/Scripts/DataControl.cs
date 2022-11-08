@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DataControll : MonoBehaviour
+public class DataControl : MonoBehaviour
 {
     public Slider Fslider;
     public Slider Wslider;
