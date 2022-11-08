@@ -12,7 +12,7 @@ public class Character
     private int id = -1;
     [SerializeField]
     private string information = "";
-    [SerializeField] 
+    [SerializeField]
     private bool IsInfection = false;
     [SerializeField]
     private Stat status;
@@ -37,14 +37,20 @@ public class Character
     {
         get
         {
-            //세부 수치에 따라 수정할 예정
-            if (curHealth >= 100)
+            switch (curHealth)
             {
-                return 0;
-            }
-            else
-            {
-                return 1;
+                case 5:
+                    return 0;
+                case 4:
+                    return 1;
+                case 3:
+                    return 2;
+                case 2:
+                    return 3;
+                case 1:
+                    return 4;
+                default:
+                    return -1;
             }
         }
     }
@@ -56,13 +62,20 @@ public class Character
     {
         get
         {
-            if (curMental >= 100)
+            switch (curMental)
             {
-                return 0;
-            }
-            else
-            {
-                return 1;
+                case 5:
+                    return 0;
+                case 4:
+                    return 1;
+                case 3:
+                    return 2;
+                case 2:
+                    return 3;
+                case 1:
+                    return 4;
+                default:
+                    return -1;
             }
         }
     }
