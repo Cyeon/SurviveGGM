@@ -71,4 +71,20 @@ public class UISetting : MonoBehaviour
         isSettingOn = !isSettingOn;
 
     }
+
+    public void OnClickGameOut()
+    {
+        objects[3].gameobj.SetActive(true);
+    }
+
+    public void OnClickGameOutNo()
+    {
+        objects[3].gameobj.SetActive(false);
+    }
+
+    public void OnClickGameOutYes()
+    {
+        Debug.Log("GameOut");
+        Application.Quit();
+    }
 }
