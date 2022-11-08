@@ -5,25 +5,40 @@
     "weaponDatas": [
         {
             "WeaponName": "의자",
-            "WeaponAmount": 1
+            "WeaponAmount": 1,
+            "WeaponSprite": {
+                "instanceID": 0
+            }
         },
         {
             "WeaponName": "GROZA",
-            "WeaponAmount": 13
+            "WeaponAmount": 13,
+            "WeaponSprite": {
+                "instanceID": 0
+            }
         },
         {
             "WeaponName": "AWM",
-            "WeaponAmount": 6
+            "WeaponAmount": 6,
+            "WeaponSprite": {
+                "instanceID": 0
+            }
         }
     ],
     "foodDatas": [
         {
             "FoodName": "초콜릿 바",
-            "Foodamount": 62
+            "Foodamount": 62,
+            "FoodSprite": {
+                "instanceID": 0
+            }
         },
         {
             "FoodName": "60계치킨",
-            "Foodamount": 54
+            "Foodamount": 54,
+            "FoodSprite": {
+                "instanceID": 0
+            }
         }
     ],
     "characterDatas": [

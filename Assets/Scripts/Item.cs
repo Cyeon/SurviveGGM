@@ -42,6 +42,7 @@ public class FoodData
 {
     public string FoodName;
     public int Foodamount;
+    public Sprite FoodSprite;
 }
 
 [System.Serializable]
@@ -49,7 +50,7 @@ public class WeaponData
 {
     public string WeaponName;
     public int WeaponAmount;
+    public Sprite WeaponSprite;
 }
-
 
 
