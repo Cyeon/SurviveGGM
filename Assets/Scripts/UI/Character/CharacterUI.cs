@@ -16,7 +16,7 @@ public class CharacterUI : MonoBehaviour
     [SerializeField]
     private CharacterDescriptionSO characterDescription = null;
     [SerializeField]
-    private Image[] characterImages =null;
+    private Image[] characterImages = null;
     [SerializeField]
     private Image characterImage = null;
 
@@ -36,7 +36,7 @@ public class CharacterUI : MonoBehaviour
         // 미리 데이터가 들어간 그게 있겟죠? 그걸 characterDictionary에 넣어줍시다 
         statSliders = characterPanel.GetComponentsInChildren<Slider>();
         TMP_Text[] characterTexts = characterPanel.GetComponentsInChildren<TMP_Text>();
-        foreach(CharacterSO character in characterSO)
+        foreach (CharacterSO character in characterSO)
         {
             characterDictionary.Add(character.character.CharacterName, character.character);
             characterImageDictionary.Add(character.character.CharacterName, characterImages[character.character.CharacterID]);
@@ -52,7 +52,10 @@ public class CharacterUI : MonoBehaviour
         //characterDictionary[idx].CharacterStatus
         characterImage.sprite = characterImageDictionary[idx].sprite;
         characterImage.SetNativeSize();
-        characterImage.rectTransform.sizeDelta *=1.5f;
+        if (idx != "곽민규")
+            characterImage.rectTransform.sizeDelta *= 1.5f;
+        else
+            characterImage.rectTransform.sizeDelta *= 1.2f;
         Character character = characterDictionary[idx];
         SetCharacterText(character);
         SetCharacterSlider(character);
