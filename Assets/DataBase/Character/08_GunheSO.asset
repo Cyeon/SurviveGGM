@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ed5a9b788030804db1bf66ee87140ad, type: 3}
-  m_Name: 05_YeeunSO
+  m_Name: 08_GunheSO
   m_EditorClassIdentifier: 
   character:
-    name: "\uC624\uC608\uC740"
-    id: 5
-    information: 
+    name: "\uC870\uAC74\uD76C"
+    id: 8
+    information: "\uD3EC\uCF13\uBAAC."
+    IsInfection: 0
     status:
-      health: 0
-      mental: 0
-      power: 0
-      luck: 0
-      intelligence: 0
-      charisma: 0
-      speed: 0
+      health: 5
+      mental: 5
+      power: 3
+      luck: 4
+      intelligence: 2
+      charisma: 5
+      speed: 3
+    curHealth: 5
+    curMental: 5

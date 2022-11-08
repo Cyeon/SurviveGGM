@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ed5a9b788030804db1bf66ee87140ad, type: 3}
-  m_Name: 07_SuanSO
+  m_Name: 00_MinkyuSO
   m_EditorClassIdentifier: 
   character:
-    name: "\uC6B0\uC218\uC548"
-    id: 7
-    information: 
+    name: "\uACFD\uBBFC\uADDC"
+    id: 0
+    information: "\uD0A4\uAC00 \uD06C\uB2E4."
+    IsInfection: 0
     status:
-      health: 0
-      mental: 0
-      power: 0
-      luck: 0
-      intelligence: 0
-      charisma: 0
-      speed: 0
+      health: 5
+      mental: 5
+      power: 2
+      luck: 4
+      intelligence: 3
+      charisma: 5
+      speed: 3
+    curHealth: 5
+    curMental: 5

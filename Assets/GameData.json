@@ -2,6 +2,30 @@
     "FirstaidAmount": 0,
     "MentalcareAmount": 0,
     "MineralwaterAmount": 0,
+    "weaponDatas": [
+        {
+            "WeaponName": "의자",
+            "WeaponAmount": 1
+        },
+        {
+            "WeaponName": "GROZA",
+            "WeaponAmount": 13
+        },
+        {
+            "WeaponName": "AWM",
+            "WeaponAmount": 6
+        }
+    ],
+    "foodDatas": [
+        {
+            "FoodName": "초콜릿 바",
+            "Foodamount": 62
+        },
+        {
+            "FoodName": "60계치킨",
+            "Foodamount": 54
+        }
+    ],
     "characterDatas": [
         {
             "name": "오예은",
@@ -16,7 +40,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "김채연",
@@ -31,7 +57,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "곽민규",
@@ -46,7 +74,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "손성빈",
@@ -61,7 +91,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "김세현",
@@ -76,7 +108,9 @@
                 "intelligence": -10,
                 "charisma": -10,
                 "speed": -10.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "신기현",
@@ -91,7 +125,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "신예린",
@@ -106,7 +142,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "우수안",
@@ -121,7 +159,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "조건희",
@@ -136,7 +176,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "최원빈",
@@ -151,7 +193,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         },
         {
             "name": "박소형",
@@ -166,7 +210,9 @@
                 "intelligence": 0,
                 "charisma": 0,
                 "speed": 0.0
-            }
+            },
+            "curHealth": 0,
+            "curMental": 0
         }
     ]
 }

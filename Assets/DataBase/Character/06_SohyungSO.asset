@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ed5a9b788030804db1bf66ee87140ad, type: 3}
-  m_Name: 01_SehyeonSO
+  m_Name: 06_SohyungSO
   m_EditorClassIdentifier: 
   character:
-    name: "\uAE40\uC138\uD604"
-    id: 1
-    information: 
+    name: "\uBC15\uC18C\uD615"
+    id: 6
+    information: small.
+    IsInfection: 0
     status:
-      health: 0
-      mental: 0
-      power: 0
-      luck: 0
-      intelligence: 0
-      charisma: 0
-      speed: 0
+      health: 5
+      mental: 5
+      power: 2
+      luck: 4
+      intelligence: 4
+      charisma: 4
+      speed: 2
+    curHealth: 5
+    curMental: 5
