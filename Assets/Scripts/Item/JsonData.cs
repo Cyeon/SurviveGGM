@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class Item : MonoBehaviour
+public class JsonData : MonoBehaviour
 {
     public GameData gamedata;
 
@@ -11,6 +11,7 @@ public class Item : MonoBehaviour
     void SaveGameDataToJson()
     {
         string jsonData = JsonUtility.ToJson(gamedata,true);
+        jsonData = Crypto.AESEncrypt128(jsonData);
         string path = Path.Combine(Application.dataPath, "GameData.json");
         File.WriteAllText(path, jsonData);
     }
@@ -20,8 +21,8 @@ public class Item : MonoBehaviour
     {
         string path = Path.Combine(Application.dataPath, "GameData.json");
         string jsonData =  File.ReadAllText(path);
+        jsonData = Crypto.AESDecrypt128(jsonData);
         gamedata = JsonUtility.FromJson<GameData>(jsonData);
-
     }
 }
 

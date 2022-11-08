@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class ItemDatabase : MonoBehaviour
 {
-    public List<Item> items = new List<Item>();
+    public List<JsonData> items = new List<JsonData>();
 }
