@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 34addc7ee36fda846a6a5c4f02a9ac1d
+  m_SerializeEntries:
+  - m_GUID: 1a323520a52ad17419434717bf184755
+    m_Address: Assets/Scenes/Main.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a6b8a5e2d83afd4b9a3b7ebc5dfdcf8
+    m_Address: Assets/Images/background.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dbcd98d13a2a80c4d91f10e4c4ac5e34
+    m_Address: Assets/Images/Characters/Characters.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1d21974c481e2846801ab3c01c8522c
+    m_Address: Assets/Images/Characters/00_minkyukwak.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ca97cfe4b78610449429268288fb910
+    m_Address: Assets/Images/Characters/05_yeeunoh.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8f803cb6ecbb2854daafcfe8beb69181
+    m_Address: Assets/Images/Characters/04_gihyunshin.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5348507865f0f0c4498aa257e3569a2e
+    m_Address: Assets/Images/Characters/06_sohyungpark.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95022c9db3f874144a4d236e36dcbdb8
+    m_Address: Assets/Images/Characters/01_sehyeonkim.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3acdd1fd04c72f64db2b30e69c6f6023
+    m_Address: Assets/Images/Characters/03_seongbinson.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0527e59a5e938e489da94be566b4062
+    m_Address: Assets/Images/Characters/08_gunhecho.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 42bf31f61ce956e4e8b5d8228126e5e6
+    m_Address: Assets/Images/Characters/10_yelinshin.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17e8466983f6db94d9e21c1df2efb489
+    m_Address: Assets/Images/Characters/02_chaeyeonkim.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4d0ef697fb0be454e8e41645b8936801
+    m_Address: Assets/Images/Characters/09_wonbinchoi.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6cf91627b1130c44992226bc12b1e3d
+    m_Address: Assets/Images/Characters/07_suanwoo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3fc971be20a4a494abef58cb7eacfe7d
+    m_Address: Assets/Images/Icon/power.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6a0f46ff63b2c6d44b75dd2c7573ab2e
+    m_Address: Assets/Images/Icon/intelligence.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4ba0b21496975e14198aea6df431e357
+    m_Address: Assets/Images/Icon/luck.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 99f5cd70c75931a46a3867752748c519
+    m_Address: Assets/Images/Icon/speed.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7c35ffa4d2ba9543b8ce38804b20ef5
+    m_Address: Assets/Images/Icon/charisma.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31f40e04d12266a429bed73d768d4f57
+    m_Address: Assets/Images/Volume/sound.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f93513420b685874ab7d7047f6d588c7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fa6159301bfdf6744ad39b034296e245, type: 2}
+    - {fileID: 11400000, guid: 7821e44f5f685e844baefb3555eb8e8f, type: 2}
